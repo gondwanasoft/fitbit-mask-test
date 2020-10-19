@@ -38,3 +38,7 @@ The black areas in the Result image above should not have been drawn, allowing t
 Images (RGB or greyscale) used as masks must employ transparency. Opaque pixels (including black) are considered to be ‘on’.
 
 It doesn’t make sense to use gradientRect or gradientArc as masks (and their colours will bleed through if used). Just use rect or arc.
+
+## Disclaimer
+
+This code is badly written! I can do better.
